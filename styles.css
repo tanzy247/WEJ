@@ -209,8 +209,26 @@ footer p {
         padding-bottom: 25px;
 }
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+
+@media only screen and (min-width: 300px) {
+    footer {
+        height: 80px;
+        padding: 10px;
+    }
+
+    
+    .postitM {
+        width: 100%;
+        height: auto;
+
+    }
+    
+    .postitL {
+        width: 100%;
+        height: auto;
+
+}
+
 }
 
 @media only screen and (max-width: 992px) {
@@ -236,4 +254,9 @@ footer p {
       .date_titleBlue {
         width: 100%;
       }
+
+      .place_titleGreen {
+        width:100%;
+    }
+
 }

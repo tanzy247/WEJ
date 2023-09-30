@@ -120,6 +120,14 @@ li {
     background-color: whitesmoke;
 }
 
+.postcard video {
+    width: 500px;
+    height: auto;
+    padding: 15px;
+    margin: 20px 0 20px 0;
+    background-color: beige;
+}
+
 .car img {
     width: 100%;
     height: auto;
@@ -251,6 +259,12 @@ footer p {
         width: 100%;
         height: auto;
       }
+
+      .postcard video {
+        width: 100%;
+        height: auto;
+      }
+
       .date_titleBlue {
         width: 100%;
       }

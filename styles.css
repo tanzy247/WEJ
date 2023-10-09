@@ -128,6 +128,11 @@ li {
     background-color: beige;
 }
 
+.map {
+    padding: 15px;
+    background-color: beige;
+}
+
 .car img {
     width: 100%;
     height: auto;
@@ -172,6 +177,36 @@ li {
     box-shadow: 10px 10px #95cec1;
 }
 
+.polaroid {
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+    box-shadow: 10px 10px rgb(200, 200, 200);
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: 20px;
+}
+
+.polaroid h4 {
+    padding-top: 10px;
+    color: #2e2d2c;
+}
+.polaroid h6 {
+    padding-top: 10px;
+    color: #2e2d2c;
+}
+
+
+.polaroid a{
+    text-decoration: none;
+}
+
+.postit a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: #2e2d2c
+}
+
 .postit_title {
     font-family: 'Kaushan Script', cursive;
     color: #56351e;
@@ -203,6 +238,7 @@ footer p {
     overflow: hidden;
 }
 
+
 .numbertext {
     background-color: #cee5ff;
     color: #56351e;
@@ -217,6 +253,27 @@ footer p {
         padding-bottom: 25px;
 }
 
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background: linear-gradient(to bottom right, #cee5ff 0%, #aff5e4 100%); /* Set a background color */
+    color: #56351e; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 40px; /* Rounded corners */
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px; /* Increase font size */
+    font-weight: bold;
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
 
 @media only screen and (min-width: 300px) {
     footer {
@@ -236,6 +293,7 @@ footer p {
         height: auto;
 
 }
+
 
 }
 
@@ -273,4 +331,8 @@ footer p {
         width:100%;
     }
 
+   .map iframe {
+        width: 100%;
+        height: auto;
+    }
 }

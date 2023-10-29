@@ -331,7 +331,10 @@ footer p {
         width: 100%;
         height: auto;
       }
-
+.postitDiary img{
+    width: 85%;
+    height: auto;
+}
       .date_titleBlue {
         width: 100%;
       }

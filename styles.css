@@ -128,6 +128,7 @@ li {
     background-color: beige;
 }
 
+
 .map {
     padding: 15px;
     background-color: beige;
@@ -161,6 +162,14 @@ li {
     text-align: center;
     margin: 20px;
 }
+
+.postitDiary img{
+    width: auto;
+    height: 700px;
+    margin: 20px;
+    box-shadow: 10px 10px #dad69b;
+}
+
 
 .postitYellow {
     background-color: #FFFCB9;
@@ -282,17 +291,17 @@ footer p {
     }
 
     
-    .postitM {
-        width: 100%;
-        height: auto;
+        /* .postitM {
+            width: 100%;
+            height: auto;
 
-    }
-    
-    .postitL {
-        width: 100%;
-        height: auto;
+        }
+        
+        .postitL {
+            width: 100%;
+            height: auto;
 
-}
+    } */
 
 
 }
@@ -322,6 +331,11 @@ footer p {
         width: 100%;
         height: auto;
       }
+
+      .postitDiary img{
+        width: 90%;
+        height: auto;
+    }
 
       .date_titleBlue {
         width: 100%;

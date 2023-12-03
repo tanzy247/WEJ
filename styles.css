@@ -304,13 +304,16 @@ footer p {
         padding: 10px;
     }
 
-    
+    .postitL {
+        width: 90%;
+        height: auto;
+    }
         /* .postitM {
             width: 100%;
             height: auto;
 
         }
-        
+        /
         .postitL {
             width: 100%;
             height: auto;

@@ -298,7 +298,7 @@ footer p {
     background-color: #555; /* Add a dark-grey background on hover */
   }
 
-@media only screen and (min-width: 300px) {
+@media only screen and (min-width: 300px) and (max-width: 600px){
     footer {
         height: 80px;
         padding: 10px;

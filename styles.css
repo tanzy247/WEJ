@@ -17,7 +17,7 @@ body {
     background-color: #FFFCB9;
 }
 
-.nav-item{
+.nav-item {
     padding: 0 30px 0 30px;
 }
 
@@ -26,7 +26,8 @@ body {
 }
 
 
-header img, .carousel {
+header img,
+.carousel {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -60,21 +61,22 @@ li {
 .place_titleGreen {
     font-size: 45px;
     font-family: 'Kaushan Script', cursive;
-    color:#56351e;
+    color: #56351e;
     background-color: #AFF5E4;
     text-align: center;
-    width:600px;
+    width: 600px;
     padding: 20px 0 20px 0;
     margin: 20px auto 20px auto;
     display: block;
 }
+
 .place_titleGreenSmall {
     font-size: 36px;
     font-family: 'Kaushan Script', cursive;
-    color:#56351e;
+    color: #56351e;
     background-color: #AFF5E4;
     text-align: center;
-    width:500px;
+    width: 500px;
     padding: 10px 0 10px 0;
     margin: 20px auto 20px auto;
     display: block;
@@ -83,10 +85,10 @@ li {
 .place_titleBlue {
     font-size: 45px;
     font-family: 'Kaushan Script', cursive;
-    color:#56351e;
+    color: #56351e;
     background-color: #cee5ff;
     text-align: center;
-    width:500px;
+    width: 500px;
     padding: 20px 0 20px 0;
     margin: 20px auto 20px auto;
     display: block;
@@ -95,7 +97,7 @@ li {
 .date_titleBlue {
     font-size: 36px;
     font-family: 'Kaushan Script', cursive;
-    color:#56351e;
+    color: #56351e;
     background-color: #cee5ff;
     text-align: center;
     width: 600px;
@@ -107,16 +109,16 @@ li {
 .place_titleYellow {
     font-size: 45px;
     font-family: 'Kaushan Script', cursive;
-    color:#56351e;
+    color: #56351e;
     background-color: #FFFCB9;
     text-align: center;
-    width:500px;
+    width: 500px;
     padding: 20px 0 20px 0;
     margin: 20px auto 20px auto;
     display: block;
 }
 
-.flex-container{
+.flex-container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -125,7 +127,7 @@ li {
 }
 
 .postcard img {
-    width: 700px;
+    width: 600px;
     height: auto;
     padding: 15px;
     margin: 20px 0 20px 0;
@@ -175,7 +177,7 @@ li {
     margin: 20px;
 }
 
-.postitDiary img{
+.postitDiary img {
     width: auto;
     height: 700px;
     margin: 20px;
@@ -212,13 +214,14 @@ li {
     padding-top: 10px;
     color: #2e2d2c;
 }
+
 .polaroid h6 {
     padding-top: 10px;
     color: #2e2d2c;
 }
 
 
-.polaroid a{
+.polaroid a {
     text-decoration: none;
 }
 
@@ -234,7 +237,7 @@ li {
     font-size: 32px;
 }
 
-.postit_content{
+.postit_content {
     font-family: 'Lato', sans-serif;
     color: #2e2d2c;
     font-size: 16px;
@@ -245,7 +248,7 @@ li {
 footer {
     background-color: #FFFCB9;
     color: #2e2d2c;
-    font-family: 'Lato', sans-serif; 
+    font-family: 'Lato', sans-serif;
     height: 50px;
     padding: 10px;
 }
@@ -271,34 +274,49 @@ footer p {
     height: 25px;
     text-align: center;
 }
+
 .slide {
-        background-color: #2e2d2c98;
-        padding-bottom: 25px;
+    background-color: #2e2d2c98;
+    padding-bottom: 25px;
 }
 
 #myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background: linear-gradient(to bottom right, #cee5ff 0%, #aff5e4 100%); /* Set a background color */
-    color: #56351e; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 40px; /* Rounded corners */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background: linear-gradient(to bottom right, #cee5ff 0%, #aff5e4 100%);
+    /* Set a background color */
+    color: #56351e;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 40px;
+    /* Rounded corners */
     font-family: 'Kaushan Script', cursive;
-    font-size: 20px; /* Increase font size */
+    font-size: 20px;
+    /* Increase font size */
     font-weight: bold;
-  }
-  
-  #myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
-  }
+}
 
-@media only screen and (min-width: 300px) and (max-width: 600px){
+#myBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */
+}
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
     footer {
         height: 80px;
         padding: 10px;
@@ -308,7 +326,8 @@ footer p {
         width: 90%;
         height: auto;
     }
-        /* .postitM {
+
+    /* .postitM {
             width: 100%;
             height: auto;
 
@@ -331,6 +350,7 @@ footer p {
         width: 100%;
         margin-top: 20px;
     }
+
     .carousel {
         display: block;
         margin-left: auto;
@@ -339,30 +359,38 @@ footer p {
         margin-top: 20px;
     }
 
-    .postcard img{
+    .postcard img {
         width: 100%;
         height: auto;
-      }
-
-      .postcard video {
-        width: 100%;
-        height: auto;
-      }
-.postitDiary img{
-    width: 85%;
-    height: auto;
-}
-      .date_titleBlue {
-        width: 100%;
-      }
-
-      .place_titleGreen {
-        width:100%;
     }
+
+    .postcard video {
+        width: 100%;
+        height: auto;
+    }
+
+    .postitDiary img {
+        width: 85%;
+        height: auto;
+    }
+
+    .date_titleBlue {
+        width: 100%;
+    }
+
+    .place_titleGreen {
+        width: 100%;
+    }
+
     .place_titleGreenSmall {
-        width:100%;
+        width: 100%;
     }
-   .map iframe {
+
+    .place_titleBlue {
+        width: 100%;
+    }
+
+    .map iframe {
         width: 100%;
         height: auto;
     }

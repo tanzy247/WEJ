@@ -134,6 +134,14 @@ li {
     background-color: whitesmoke;
 }
 
+.postcardLocation img {
+    width: 300px;
+    height: auto;
+    padding: 15px;
+    margin: 20px 0 20px 0;
+    background-color: whitesmoke;
+}
+
 .postcard video {
     width: 500px;
     height: auto;
